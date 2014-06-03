@@ -4,11 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/CCLColorTransformer.svg?style=flat)](http://cocoadocs.org/docsets/CCLColorTransformer)
 [![Platform](https://img.shields.io/cocoapods/p/CCLColorTransformer.svg?style=flat)](http://cocoadocs.org/docsets/CCLColorTransformer)
 
-## Usage
-
-To run the example project; clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+CCLColorTransformer is a simple NSValueTransformer to transform a color.
 
 ## Installation
 

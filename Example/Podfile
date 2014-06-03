@@ -1,12 +1,6 @@
-# Uncomment this line to define a global platform for your project
-# platform :ios, '7.0'
+platform :osx, '10.9'
 
-target "Demo" do
+target "CCLColorTransformer" do
   pod "CCLColorTransformer", :path => "../"
 end
-
-# Uncomment the following lines to add testing dependencies
-# target "DemoTests" do
-#   pod 'Expecta'
-# end
 

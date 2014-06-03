@@ -1,0 +1,14 @@
+PODS:
+  - CCLColorTransformer (1.0.0)
+
+DEPENDENCIES:
+  - CCLColorTransformer (from `../`)
+
+EXTERNAL SOURCES:
+  CCLColorTransformer:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CCLColorTransformer: 7a082abf70b4d05123e5d47724f30470724fd08c
+
+COCOAPODS: 0.33.1

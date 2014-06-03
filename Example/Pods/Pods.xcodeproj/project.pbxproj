@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F0A8E587BAB4348ACD26063 /* Pods-CCLColorTransformer-CCLColorTransformer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58145218AE8B4CC7893585D4 /* Pods-CCLColorTransformer-CCLColorTransformer-dummy.m */; };
+		1D2A2BBC570841248B794F80 /* Pods-CCLColorTransformer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A58A43E66643E0B5AF1472 /* Pods-CCLColorTransformer-dummy.m */; };
+		7AC1233916744ADC971FB273 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3D6C91C0C54E72BB9D5F40 /* Cocoa.framework */; };
+		BB650C1399474B0BAC0FDF54 /* CCLColorTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 73382DEC0AFE401F87530980 /* CCLColorTransformer.h */; };
+		BD0E27C2CCBA41CEBE35E590 /* libPods-CCLColorTransformer-CCLColorTransformer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC4734FD64A4984995601C1 /* libPods-CCLColorTransformer-CCLColorTransformer.a */; };
+		DA41F1ABD51143A4930A09A6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3D6C91C0C54E72BB9D5F40 /* Cocoa.framework */; };
+		FF043520FA2D4A4DB2F57BA8 /* CCLColorTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 13704CAA830145D59568E565 /* CCLColorTransformer.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6A1EDDFA0704C518D1361C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49AC6C5A383B4B55990A13B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92673777059245D7A979E029;
+			remoteInfo = "Pods-CCLColorTransformer-CCLColorTransformer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E3D6C91C0C54E72BB9D5F40 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		116D4D2488C344DCAD80919A /* Pods-CCLColorTransformer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCLColorTransformer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		13704CAA830145D59568E565 /* CCLColorTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCLColorTransformer.m; path = Classes/CCLColorTransformer.m; sourceTree = "<group>"; };
+		3C14EEE28E0C472E9551EBA9 /* libPods-CCLColorTransformer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCLColorTransformer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58145218AE8B4CC7893585D4 /* Pods-CCLColorTransformer-CCLColorTransformer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCLColorTransformer-CCLColorTransformer-dummy.m"; sourceTree = "<group>"; };
+		5990C48FE379440F9608A77F /* Pods-CCLColorTransformer-CCLColorTransformer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCLColorTransformer-CCLColorTransformer.xcconfig"; sourceTree = "<group>"; };
+		60D1983BBF574971BBD58C88 /* Pods-CCLColorTransformer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCLColorTransformer.xcconfig"; sourceTree = "<group>"; };
+		73382DEC0AFE401F87530980 /* CCLColorTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCLColorTransformer.h; path = Classes/CCLColorTransformer.h; sourceTree = "<group>"; };
+		7D9DB8BA30C84FDFBE881622 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		87B1AA3843AB419F8EEE0935 /* Pods-CCLColorTransformer-CCLColorTransformer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCLColorTransformer-CCLColorTransformer-prefix.pch"; sourceTree = "<group>"; };
+		8D8447138E0B469E8BF5FBE7 /* Pods-CCLColorTransformer-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCLColorTransformer-environment.h"; sourceTree = "<group>"; };
+		957E6A920B8D4FC588E8A3F7 /* Pods-CCLColorTransformer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCLColorTransformer-acknowledgements.plist"; sourceTree = "<group>"; };
+		9AC4734FD64A4984995601C1 /* libPods-CCLColorTransformer-CCLColorTransformer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCLColorTransformer-CCLColorTransformer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A58A43E66643E0B5AF1472 /* Pods-CCLColorTransformer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCLColorTransformer-dummy.m"; sourceTree = "<group>"; };
+		E174498DFF814C1695CD0307 /* Pods-CCLColorTransformer-CCLColorTransformer-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCLColorTransformer-CCLColorTransformer-Private.xcconfig"; sourceTree = "<group>"; };
+		F6DB709DC2604396917655BD /* Pods-CCLColorTransformer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCLColorTransformer-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD74DFEFB2AB484BB1DDECC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA41F1ABD51143A4930A09A6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2E548E1B2A4280A7BC5390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC1233916744ADC971FB273 /* Cocoa.framework in Frameworks */,
+				BD0E27C2CCBA41CEBE35E590 /* libPods-CCLColorTransformer-CCLColorTransformer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01EB79EAD62A412BA1858EEC /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				0E3D6C91C0C54E72BB9D5F40 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		2F117890CEDC43418F2AE3B7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5990C48FE379440F9608A77F /* Pods-CCLColorTransformer-CCLColorTransformer.xcconfig */,
+				E174498DFF814C1695CD0307 /* Pods-CCLColorTransformer-CCLColorTransformer-Private.xcconfig */,
+				58145218AE8B4CC7893585D4 /* Pods-CCLColorTransformer-CCLColorTransformer-dummy.m */,
+				87B1AA3843AB419F8EEE0935 /* Pods-CCLColorTransformer-CCLColorTransformer-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		512B194E60614BFCB2BADCB5 /* CCLColorTransformer */ = {
+			isa = PBXGroup;
+			children = (
+				73382DEC0AFE401F87530980 /* CCLColorTransformer.h */,
+				13704CAA830145D59568E565 /* CCLColorTransformer.m */,
+				2F117890CEDC43418F2AE3B7 /* Support Files */,
+			);
+			name = CCLColorTransformer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		54773F464A0749A6863410B3 = {
+			isa = PBXGroup;
+			children = (
+				7D9DB8BA30C84FDFBE881622 /* Podfile */,
+				C6E275FF11C14E878B9C7A4E /* Development Pods */,
+				B482BB65944F4DBF93FCE88B /* Frameworks */,
+				E05B65A82BDA4FD8B8B8D251 /* Products */,
+				759D74C611274D21A5E43BA3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		759D74C611274D21A5E43BA3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4FCE973A90B4368A7100D67 /* Pods-CCLColorTransformer */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A4FCE973A90B4368A7100D67 /* Pods-CCLColorTransformer */ = {
+			isa = PBXGroup;
+			children = (
+				60D1983BBF574971BBD58C88 /* Pods-CCLColorTransformer.xcconfig */,
+				116D4D2488C344DCAD80919A /* Pods-CCLColorTransformer-acknowledgements.markdown */,
+				957E6A920B8D4FC588E8A3F7 /* Pods-CCLColorTransformer-acknowledgements.plist */,
+				C1A58A43E66643E0B5AF1472 /* Pods-CCLColorTransformer-dummy.m */,
+				8D8447138E0B469E8BF5FBE7 /* Pods-CCLColorTransformer-environment.h */,
+				F6DB709DC2604396917655BD /* Pods-CCLColorTransformer-resources.sh */,
+			);
+			name = "Pods-CCLColorTransformer";
+			sourceTree = "<group>";
+		};
+		B482BB65944F4DBF93FCE88B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01EB79EAD62A412BA1858EEC /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6E275FF11C14E878B9C7A4E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				512B194E60614BFCB2BADCB5 /* CCLColorTransformer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E05B65A82BDA4FD8B8B8D251 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C14EEE28E0C472E9551EBA9 /* libPods-CCLColorTransformer.a */,
+				9AC4734FD64A4984995601C1 /* libPods-CCLColorTransformer-CCLColorTransformer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BFF733700102400C81FFF7FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB650C1399474B0BAC0FDF54 /* CCLColorTransformer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2287CE1C59C748DBBDD2DC6F /* Pods-CCLColorTransformer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DF02121C3D8470BB3BC660E /* Build configuration list for PBXNativeTarget "Pods-CCLColorTransformer" */;
+			buildPhases = (
+				B75BA84E280747B99C89FF75 /* Sources */,
+				FC2E548E1B2A4280A7BC5390 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				995204DE33F9432AB61954A7 /* PBXTargetDependency */,
+			);
+			name = "Pods-CCLColorTransformer";
+			productName = "Pods-CCLColorTransformer";
+			productReference = 3C14EEE28E0C472E9551EBA9 /* libPods-CCLColorTransformer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		92673777059245D7A979E029 /* Pods-CCLColorTransformer-CCLColorTransformer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EA96F910E7F43E2ABAEF0DB /* Build configuration list for PBXNativeTarget "Pods-CCLColorTransformer-CCLColorTransformer" */;
+			buildPhases = (
+				DC8E29AC6C22405AB40889F9 /* Sources */,
+				BD74DFEFB2AB484BB1DDECC5 /* Frameworks */,
+				BFF733700102400C81FFF7FA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CCLColorTransformer-CCLColorTransformer";
+			productName = "Pods-CCLColorTransformer-CCLColorTransformer";
+			productReference = 9AC4734FD64A4984995601C1 /* libPods-CCLColorTransformer-CCLColorTransformer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49AC6C5A383B4B55990A13B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 89C3080DED724FB4BD3EAE2A /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 54773F464A0749A6863410B3;
+			productRefGroup = E05B65A82BDA4FD8B8B8D251 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2287CE1C59C748DBBDD2DC6F /* Pods-CCLColorTransformer */,
+				92673777059245D7A979E029 /* Pods-CCLColorTransformer-CCLColorTransformer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B75BA84E280747B99C89FF75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D2A2BBC570841248B794F80 /* Pods-CCLColorTransformer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8E29AC6C22405AB40889F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF043520FA2D4A4DB2F57BA8 /* CCLColorTransformer.m in Sources */,
+				0F0A8E587BAB4348ACD26063 /* Pods-CCLColorTransformer-CCLColorTransformer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		995204DE33F9432AB61954A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92673777059245D7A979E029 /* Pods-CCLColorTransformer-CCLColorTransformer */;
+			targetProxy = A6A1EDDFA0704C518D1361C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21EDAFA53CB24CB7BB980840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E174498DFF814C1695CD0307 /* Pods-CCLColorTransformer-CCLColorTransformer-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-CCLColorTransformer-CCLColorTransformer-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6ED41111B647479993BEA6C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		7ABD9C30AD154A24932010A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60D1983BBF574971BBD58C88 /* Pods-CCLColorTransformer.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		970323531C6948FAB74A226E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E174498DFF814C1695CD0307 /* Pods-CCLColorTransformer-CCLColorTransformer-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-CCLColorTransformer-CCLColorTransformer-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CB3443AF31FB4822AD192F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7997B10EE964D10AED1B558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60D1983BBF574971BBD58C88 /* Pods-CCLColorTransformer.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EA96F910E7F43E2ABAEF0DB /* Build configuration list for PBXNativeTarget "Pods-CCLColorTransformer-CCLColorTransformer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				970323531C6948FAB74A226E /* Debug */,
+				21EDAFA53CB24CB7BB980840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89C3080DED724FB4BD3EAE2A /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ED41111B647479993BEA6C9 /* Debug */,
+				CB3443AF31FB4822AD192F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DF02121C3D8470BB3BC660E /* Build configuration list for PBXNativeTarget "Pods-CCLColorTransformer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ABD9C30AD154A24932010A1 /* Debug */,
+				F7997B10EE964D10AED1B558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49AC6C5A383B4B55990A13B8 /* Project object */;
+}
